@@ -1,5 +1,4 @@
 /*
- * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
  * this work for additional information regarding copyright ownership.
  * The ASF licenses this file to You under the Apache License, Version 2.0
@@ -27,14 +26,14 @@ import java.util.Locale;
 
 /**
  * <pre>
- * 패키지명 : com.github.tobby48.opensource.server
- * 파일명 : CorsFilter.java
+ * com.github.swhacademy.chatting.server 
+ * CorsFilter.java
+ *
  * 설명 : CrossDomain 부분 처리
- * 
  * </pre>
  * 
- * @since : 2018. 2. 1.
- * @author : tobby48
+ * @since : 2018. 3. 23.
+ * @author : 허석
  * @version : v1.0
  */
 public class CorsFilter implements Filter {

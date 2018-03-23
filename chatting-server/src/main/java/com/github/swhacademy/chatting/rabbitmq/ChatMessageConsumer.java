@@ -1,14 +1,3 @@
-/**
- * 패키지명 : chat
- * 파일명 : RabbitMQServer.java
- * 설명 : 
- * 
- * </pre>
- * 
- * @since : 2018. 2. 5.
- * @author : tobby48
- * @version : v1.0
- */
 package com.github.swhacademy.chatting.rabbitmq;
 
 import java.io.IOException;
@@ -24,6 +13,18 @@ import com.rabbitmq.client.Consumer;
 import com.rabbitmq.client.DefaultConsumer;
 import com.rabbitmq.client.Envelope;
 
+/**
+ * <pre>
+ * com.github.swhacademy.chatting.rabbitmq 
+ * ChatMessageConsumer.java
+ *
+ * 설명 :
+ * </pre>
+ * 
+ * @since : 2018. 3. 23.
+ * @author : 허석
+ * @version : v1.0
+ */
 public class ChatMessageConsumer {
 
 	private final String QUEUE_NAME = "chat";

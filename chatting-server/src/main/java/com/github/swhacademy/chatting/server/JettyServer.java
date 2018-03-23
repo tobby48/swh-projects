@@ -26,14 +26,14 @@ import com.sun.jersey.spi.container.servlet.ServletContainer;
 
 /**
  * <pre>
- * 패키지명 : com.github.tobby48.opensource.server
- * 파일명 : JettyServer.java
- * 설명 : JettyServer
- * 
+ * com.github.swhacademy.chatting.server 
+ * JettyServer.java
+ *
+ * 설명 :
  * </pre>
  * 
- * @since : 2018. 2. 1.
- * @author : tobby48
+ * @since : 2018. 3. 23.
+ * @author : 허석
  * @version : v1.0
  */
 public class JettyServer {

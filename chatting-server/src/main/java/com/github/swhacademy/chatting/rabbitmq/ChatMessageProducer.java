@@ -1,14 +1,3 @@
-/**
- * 패키지명 : chat
- * 파일명 : Client.java
- * 설명 : 
- * 
- * </pre>
- * 
- * @since : 2018. 2. 5.
- * @author : tobby48
- * @version : v1.0
- */
 package com.github.swhacademy.chatting.rabbitmq;
 
 import com.github.swhacademy.chatting.server.ConfigurationSingleton;
@@ -17,6 +6,18 @@ import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 
+/**
+ * <pre>
+ * com.github.swhacademy.chatting.rabbitmq 
+ * ChatMessageProducer.java
+ *
+ * 설명 :
+ * </pre>
+ * 
+ * @since : 2018. 3. 23.
+ * @author : 허석
+ * @version : v1.0
+ */
 public class ChatMessageProducer {
 	
 	private final String EXCHANGE_NAME = "broker";
